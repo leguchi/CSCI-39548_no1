@@ -1,0 +1,21 @@
+a.center {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+    background-color: #102937;
+}
+
+#index {
+    color: #ededed;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 400%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
