@@ -1,8 +1,37 @@
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'main'
+    'footer';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > body {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
 a.center {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 body {
@@ -14,8 +43,4 @@ body {
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 400%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
