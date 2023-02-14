@@ -1,0 +1,62 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background-color: #ededed;
+}
+
+figcaption {
+    color: #124d54;
+    font-family: 'Comfortaa', cursive;
+}
+
+figure {
+    width: 40vw;
+}
+h1 {
+    color: #102937;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    color: #102937;
+    font-family: 'Comfortaa', cursive;
+}
+
+img {
+    width: 40vw;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+    color: #102937;
+}
+p {
+    color: #102937;
+    font-family: 'Comfortaa', cursive;
+}
+
+td {
+    color: #102937;
+    font-family: 'Comfortaa', cursive;
+}
+
+th {
+    color: #124d54;
+    font-family: 'Comfortaa', cursive;
+}

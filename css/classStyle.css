@@ -14,11 +14,11 @@
     justify-items: center;
 }
 
-.grid-container > body {
+/* .grid-container > div {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-}
+} */
 
 .header {
     grid-area: header;
