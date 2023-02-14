@@ -1,21 +1,105 @@
-a.center {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+<<<<<<< Updated upstream
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'main'
+    'footer';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > body {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header {
+    grid-area: header;
+=======
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 body {
     background-color: #102937;
 }
 
+figcaption {
+    color: #e1d9cf;
+    font-family: 'Comfortaa', cursive;
+}
+
+figure {
+    width: 40vw;
+}
+h1 {
+    color: #ededed;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    color: #ededed;
+    font-family: 'Comfortaa', cursive;
+>>>>>>> Stashed changes
+}
+
+.main {
+    grid-area: main;
+}
+
+<<<<<<< Updated upstream
+a.center {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+body {
+    background-color: #102937;
+=======
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+}
+p {
+    color: #ededed;
+    font-family: 'Comfortaa', cursive;
+}
+
+td {
+    color: #e1d9cf;
+    font-family: 'Comfortaa', cursive;
+>>>>>>> Stashed changes
+}
+
 #index {
     color: #ededed;
+<<<<<<< Updated upstream
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 400%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+=======
+    font-family: 'Comfortaa', cursive;
+>>>>>>> Stashed changes
 }

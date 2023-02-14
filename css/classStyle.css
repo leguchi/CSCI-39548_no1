@@ -1,0 +1,35 @@
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'main'
+    'footer';
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.grid-container > body {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+a.center {
+    color: #ededed;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
